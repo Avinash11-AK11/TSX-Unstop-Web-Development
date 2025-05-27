@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Web Developer</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4">
+              Hi, I'm <span class="text-primary">Avinash</span>
+            </h1>
+            <h2 class="mb-4">Frontend Developer</h2>
+            <p class="lead mb-4">
+              I create beautiful, responsive websites that help businesses grow
+              and succeed in the digital world.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#contact" class="btn btn-primary btn-lg px-4">Hire Me</a>
+              <a href="#portfolio" class="btn btn-outline-light btn-lg px-4"
+                >View Work</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-img">
+              <img
+                src="./image/profile pic.jpg"
+                alt="Profile Image"
+                class="img-fluid rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>About <span class="text-primary">Me</span></h2>
+          <p>Get to know me better</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mb-4">
+              I'm a passionate web developer with 2+ years of experience
+            </h3>
+            <p class="mb-4">
+              I specialize in creating modern, responsive websites and web
+              applications using the latest technologies. My goal is to build
+              products that are not only visually appealing but also provide
+              exceptional user experiences.
+            </p>
+
+            <div class="skills mb-4">
+              <h4 class="mb-3">My Skills</h4>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-2">
+                  <span>HTML/CSS</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 95%"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-2">
+                  <span>JavaScript</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-2">
+                  <span>React</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 85%"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-2">
+                  <span>UI/UX Design</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-info">
+              <div class="info-item d-flex mb-3">
+                <div class="icon-box me-3">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div>
+                  <h5>Name</h5>
+                  <p>Avinash Chavda</p>
+                </div>
+              </div>
+              <div class="info-item d-flex mb-3">
+                <div class="icon-box me-3">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h5>Email</h5>
+                  <p>avinashchavda11@gmail.com</p>
+                </div>
+              </div>
+              <div class="info-item d-flex mb-3">
+                <div class="icon-box me-3">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <h5>Phone</h5>
+                  <p>+91 93137 20047</p>
+                </div>
+              </div>
+              <div class="info-item d-flex mb-3">
+                <div class="icon-box me-3">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h5>Location</h5>
+                  <p>Rajkot, Gujarat, India</p>
+                </div>
+              </div>
+              <div class="info-item d-flex mb-3">
+                <div class="icon-box me-3">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                  <h5>Education</h5>
+                  <p>B.Tech in Computer Science and Engineering</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h2>My <span class="text-primary">Services</span></h2>
+          <p>What I offer to my clients</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="service-card">
+              <div class="icon-box">
+                <i class="fas fa-code"></i>
+              </div>
+              <h4>Web Development</h4>
+              <p>
+                Custom website development from scratch using modern
+                technologies like HTML5, CSS3, JavaScript, and frameworks.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-card">
+              <div class="icon-box">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h4>Responsive Design</h4>
+              <p>
+                Creating websites that look and function perfectly on all
+                devices, from desktop to mobile phones.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-card">
+              <div class="icon-box">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h4>UI/UX Design</h4>
+              <p>
+                Designing intuitive user interfaces and experiences that engage
+                visitors and drive conversions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-card">
+              <div class="icon-box">
+                <i class="fab fa-react"></i>
+              </div>
+              <h4>React Applications</h4>
+              <p>
+                Building dynamic single-page applications using React.js for
+                seamless user experiences.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-card">
+              <div class="icon-box">
+                <i class="fas fa-search"></i>
+              </div>
+              <h4>SEO Optimization</h4>
+              <p>
+                Optimizing websites to rank higher in search engines and attract
+                more organic traffic.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-card">
+              <div class="icon-box">
+                <i class="fas fa-headset"></i>
+              </div>
+              <h4>Maintenance & Support</h4>
+              <p>
+                Ongoing website maintenance, updates, and technical support to
+                keep your site running smoothly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>My <span class="text-primary">Portfolio</span></h2>
+          <p>Check out some of my recent work</p>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <ul class="portfolio-filters">
+              <li class="active" data-filter="*">All</li>
+              <li data-filter=".web">Web Design</li>
+              <li data-filter=".app">App Development</li>
+              <li data-filter=".ui">UI/UX</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-items">
+          <div class="col-md-4 mb-4 portfolio-item ui">
+            <div class="portfolio-card">
+              <img src="./image/moveit.png" class="img-fluid" alt="Project 6" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h4>Moveit UI</h4>
+                  <p>UI/UX Design</p>
+                  <a href="#" class="portfolio-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Avinash11-AK11/Moveit-frontend"
+                    class="portfolio-preview"
+                    data-lightbox="portfolio"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 portfolio-item app">
+            <div class="portfolio-card">
+              <img
+                src="./image/royel-master.png"
+                class="img-fluid"
+                alt="Project 2"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h4>Royel Master</h4>
+                  <p>Web Development</p>
+                  <a href="#" class="portfolio-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Avinash11-AK11/Royel-master"
+                    class="portfolio-preview"
+                    data-lightbox="portfolio"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 portfolio-item ui">
+            <div class="portfolio-card">
+              <img src="./image/tindog.png" class="img-fluid" alt="Project 3" />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h4>Tindog UI</h4>
+                  <p>UI/UX Design</p>
+                  <a href="#" class="portfolio-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Avinash11-AK11/Tindog-frontend"
+                    class="portfolio-preview"
+                    data-lightbox="portfolio"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 portfolio-item web">
+            <div class="portfolio-card">
+              <img
+                src="./image/corporate.webp"
+                class="img-fluid"
+                alt="Project 4"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h4>Corporate Website</h4>
+                  <p>Web Design</p>
+                  <a href="#" class="portfolio-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a
+                    href="https://via.placeholder.com/600x400"
+                    class="portfolio-preview"
+                    data-lightbox="portfolio"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 portfolio-item app">
+            <div class="portfolio-card">
+              <img
+                src="./image/snapgram.png"
+                class="img-fluid"
+                alt="Project 5"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h4>Snapgram</h4>
+                  <p>web Development</p>
+                  <a href="#" class="portfolio-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Avinash11-AK11/Snapgram-App"
+                    class="portfolio-preview"
+                    data-lightbox="portfolio"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 portfolio-item web">
+            <div class="portfolio-card">
+              <img
+                src="./image/e-commerce.webp"
+                class="img-fluid"
+                alt="Project 1"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h4>E-commerce Website</h4>
+                  <p>Web Design</p>
+                  <a href="#" class="portfolio-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                  <a
+                    href="https://via.placeholder.com/600x400"
+                    class="portfolio-preview"
+                    data-lightbox="portfolio"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In <span class="text-primary">Touch</span></h2>
+          <p>I'd love to hear from you</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <form id="contact-form" class="contact-form">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <label for="name">Your Name</label>
+                    <div class="invalid-feedback">Please provide your name</div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <label for="email">Your Email</label>
+                    <div class="invalid-feedback">
+                      Please provide a valid email
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                  <label for="message">Your Message</label>
+                  <div class="invalid-feedback">Please enter your message</div>
+                  <div class="form-text">Minimum 30 characters required</div>
+                </div>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="consent"
+                  required
+                />
+                <label class="form-check-label" for="consent"
+                  >I agree to the
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#privacyModal"
+                    >privacy policy</a
+                  ></label
+                >
+                <div class="invalid-feedback">
+                  You must agree before submitting
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="submit" class="btn btn-primary px-4 py-2">
+                  <span class="submit-text">Send Message</span>
+                  <span
+                    class="spinner-border spinner-border-sm d-none"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+                <div class="form-status"></div>
+              </div>
+            </form>
+
+            <!-- Privacy Policy Modal -->
+            <div
+              class="modal fade"
+              id="privacyModal"
+              tabindex="-1"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Privacy Policy</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      We respect your privacy and are committed to protecting
+                      your personal data. The information you provide will only
+                      be used to respond to your inquiry and will not be shared
+                      with third parties without your consent.
+                    </p>
+                    <p>
+                      By submitting this form, you agree to our terms of service
+                      and privacy policy.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <div class="contact-item d-flex mb-4">
+                <div class="icon-box me-3">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h5>Location</h5>
+                  <p>Jasdan, Rajkot, Gujarat, India</p>
+                </div>
+              </div>
+              <div class="contact-item d-flex mb-4">
+                <div class="icon-box me-3">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h5>Email</h5>
+                  <p>avinashchavda11@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item d-flex mb-4">
+                <div class="icon-box me-3">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <h5>Phone</h5>
+                  <p>+91 93137 20047</p>
+                </div>
+              </div>
+              <div class="social-links mt-4">
+                <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">&copy; Avinash. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p class="mb-0">
+              Designed with <i class="fas fa-heart text-danger"></i> by Avinash
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Isotope (for portfolio filtering) -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
